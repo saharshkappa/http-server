@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/server.dir/HttpServer.cpp.o"
+  "CMakeFiles/server.dir/HttpServer.cpp.o.d"
+  "CMakeFiles/server.dir/Router.cpp.o"
+  "CMakeFiles/server.dir/Router.cpp.o.d"
   "CMakeFiles/server.dir/main.cpp.o"
   "CMakeFiles/server.dir/main.cpp.o.d"
   "server"

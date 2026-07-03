@@ -129,6 +129,54 @@ server/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/build
 .PHONY : server/fast
 
+HttpServer.o: HttpServer.cpp.o
+.PHONY : HttpServer.o
+
+# target to build an object file
+HttpServer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/HttpServer.cpp.o
+.PHONY : HttpServer.cpp.o
+
+HttpServer.i: HttpServer.cpp.i
+.PHONY : HttpServer.i
+
+# target to preprocess a source file
+HttpServer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/HttpServer.cpp.i
+.PHONY : HttpServer.cpp.i
+
+HttpServer.s: HttpServer.cpp.s
+.PHONY : HttpServer.s
+
+# target to generate assembly for a file
+HttpServer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/HttpServer.cpp.s
+.PHONY : HttpServer.cpp.s
+
+Router.o: Router.cpp.o
+.PHONY : Router.o
+
+# target to build an object file
+Router.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/Router.cpp.o
+.PHONY : Router.cpp.o
+
+Router.i: Router.cpp.i
+.PHONY : Router.i
+
+# target to preprocess a source file
+Router.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/Router.cpp.i
+.PHONY : Router.cpp.i
+
+Router.s: Router.cpp.s
+.PHONY : Router.s
+
+# target to generate assembly for a file
+Router.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/Router.cpp.s
+.PHONY : Router.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +210,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... server"
+	@echo "... HttpServer.o"
+	@echo "... HttpServer.i"
+	@echo "... HttpServer.s"
+	@echo "... Router.o"
+	@echo "... Router.i"
+	@echo "... Router.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

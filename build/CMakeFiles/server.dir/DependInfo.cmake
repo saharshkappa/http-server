@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/saharsh/Codes/http_server/HttpServer.cpp" "CMakeFiles/server.dir/HttpServer.cpp.o" "gcc" "CMakeFiles/server.dir/HttpServer.cpp.o.d"
+  "/home/saharsh/Codes/http_server/Router.cpp" "CMakeFiles/server.dir/Router.cpp.o" "gcc" "CMakeFiles/server.dir/Router.cpp.o.d"
   "/home/saharsh/Codes/http_server/main.cpp" "CMakeFiles/server.dir/main.cpp.o" "gcc" "CMakeFiles/server.dir/main.cpp.o.d"
   )
 
